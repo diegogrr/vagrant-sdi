@@ -1,4 +1,4 @@
-# ignore Vagrant file
+# ignore Vagrant folder
 .vagrant
 
 # ignore ALL .log files

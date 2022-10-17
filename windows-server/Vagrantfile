@@ -38,6 +38,8 @@ Vagrant.configure("2") do |config|
     elsif RUBY_PLATFORM =~ /linux/
       virtualbox.customize ["modifyvm", :id, '--audio', 'alsa']
     end
+    virtualbox.cpus = "2"
+    virtualbox.memory = "4096"
   end
 
   # Port forward for RDP

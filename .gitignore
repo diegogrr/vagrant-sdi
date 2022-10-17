@@ -3,3 +3,6 @@
 
 # ignore ALL .log files
 *.log
+
+# ignore git folder
+.git

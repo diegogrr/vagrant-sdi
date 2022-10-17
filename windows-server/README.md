@@ -2,9 +2,9 @@
 
 ## Login Credentials
 
-root / Administrator password is `vagrant` or is not set.
+Administrator password is `vagrant` or is not set.
 
 Default login credentials:
 
-    Username: `vagrant`
-    Password: `vagrant`
+    Username: Administrator
+    Password: vagrant

@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Pode substituir por outra Box do Ubuntu
+  config.vm.box = "diegogrr/bionic64-20221012"
+  # Nome do Host
+  config.vm.hostname = "mywebserver.local"
+  # Habilitar uma segunda interface de rede - definida em modo Bridge
+  config.vm.network "public_network", 
+    bridge: "enp0s25", 
+    type: "dhcp"
+
+  # Virtualbox Configuration
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "Nginx VG"
+    vb.memory = 2048
+    vb.cpus = 2
+  end
+
+  # Shell - modo root desabilitado para utilizar o usuário `vagrant`
+  config.vm.provision "shell", path: "script/script.sh", privileged: false
+end

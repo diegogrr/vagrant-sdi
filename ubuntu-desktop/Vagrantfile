@@ -7,12 +7,12 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/jammy64"
   # (Opcional) Definir a versão da Box
   config.vm.box_version = "20221014.0.0"
-
+  # Hostname da VM
   config.vm.hostname = "ubuntu2204"
 
 
   config.vm.provider "virtualbox" do |vb|
-    # Nome da VM
+    # Nome de identificação da VM no VirtualBox
     vb.name = "ubuntu-jammy"
     # Quantidade de CPUs
     vb.cpus = "2"

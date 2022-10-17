@@ -8,7 +8,7 @@ Vagrant é um utilitário de linha de comando de código aberto que permite cria
 
 ## Preparação do desktop
 
-Material da disciplina: 
+Repositório com conteúdo sobre Vagrant: 
 
 [![diegogrr/vagrant-sdi](https://img.shields.io/github/stars/diegogrr/vagrant-sdi?label=diegogrr|vagrant-sdi&logo=github&style=for-the-badge)](https://github.com/diegogrr/vagrant-sdi)
 

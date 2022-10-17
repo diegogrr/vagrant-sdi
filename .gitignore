@@ -1,0 +1,5 @@
+# ignore Vagrant file
+.vagrant
+
+# ignore ALL .log files
+*.log

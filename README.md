@@ -1,4 +1,4 @@
-# Repositório de Vagrantfiles
+# Repositório de Arquivos do Vagrant
 
 Vagrantfiles para serem utilizados na disciplina de Sistemas Distribuídos.
 
